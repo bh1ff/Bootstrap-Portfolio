@@ -12,7 +12,7 @@ h1, h2, h3 , h4, h5, h6 {
   .customNav {
     position: fixed;
     width: 100%;
-    background: url("../Images/NavbarBackground.jpg");
+    background: url("../Images/NavbarBackground.png");
     background-color: transparent !important;
     background-size: cover;
     z-index: 10;
@@ -36,7 +36,7 @@ h1, h2, h3 , h4, h5, h6 {
   
   /* Navigation dropdown menu */
   .dropdown-menu {
-    background: url("../images/transparency.png");
+    /* background: url("../images/transparency.png"); */
     background-color: transparent !important;
     background-size: cover;
   }
@@ -52,10 +52,8 @@ h1, h2, h3 , h4, h5, h6 {
     
   }
   .nav-link{
-    background-color:rgba(60, 0, 255, .4);
     padding: 1px 15px;
     margin: 1px;
-    /* width: 25%; */
     border-radius: 10px;
   }
   .navCTA {
@@ -63,8 +61,8 @@ h1, h2, h3 , h4, h5, h6 {
   }
   
   /* Jumbotron  */
-  .rockBackground {
-    background-image: url(../images/rockOn_dark.jpg);
+  .heroBackground {
+    background-image: url(/Assets/Images/heroBackground.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: calc(100vh - 25px);
@@ -111,10 +109,22 @@ h1, h2, h3 , h4, h5, h6 {
     margin-top: 15px;
     margin-bottom: 15px;
   }
-  
+  #contactSection {
+    background: url(/Assets/Images/Contact.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    color: white;
+  }
   /* Footer */
   .emailContain {
-    background: url(../images/emailBG.jpg);
+    background: url(/Assets/Images/Emails.png);
     background-size: cover;
     display: flex;
     align-items: center;
