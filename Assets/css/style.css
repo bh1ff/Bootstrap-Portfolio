@@ -12,7 +12,7 @@ h1, h2, h3 , h4, h5, h6 {
   .customNav {
     position: fixed;
     width: 100%;
-    background: url("../Images/NavbarBackground.png");
+    background: url("/assets/Images/NavbarBackground.png");
     background-color: transparent !important;
     background-size: cover;
     z-index: 10;
@@ -62,7 +62,7 @@ h1, h2, h3 , h4, h5, h6 {
   
   /* Jumbotron  */
   .heroBackground {
-    background-image: url(/Assets/Images/heroBackground.png);
+    background-image: url(/assets/Images/heroBackground.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: calc(100vh - 25px);
@@ -110,7 +110,7 @@ h1, h2, h3 , h4, h5, h6 {
     margin-bottom: 15px;
   }
   #contactSection {
-    background: url(/Assets/Images/Contact.png);
+    background: url(/assets/Images/Contact.png);
     background-size: cover;
     background-position: center;
     border-radius: 50px;
@@ -124,7 +124,7 @@ h1, h2, h3 , h4, h5, h6 {
   }
   /* Footer */
   .emailContain {
-    background: url(/Assets/Images/Emails.png);
+    background: url(/assets/Images/Emails.png);
     background-size: cover;
     display: flex;
     align-items: center;
