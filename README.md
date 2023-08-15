@@ -4,7 +4,7 @@
 
 This project is a professional portfolio website for Ahmed Ayad, a dedicated web developer. The portfolio showcases Ahmed's projects, provides information about him, and includes a contact section where potential clients or employers can reach out. The visual assets for this project are sourced from Midjourney.
 
-![Portfolio Screenshot](/Assets/Images/Portfolio.png)
+![Portfolio Screenshot](/Images/Portfolio.png)
 
 ## Features
 
